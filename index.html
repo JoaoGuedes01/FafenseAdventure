@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Fafense Adventure Game of the Year Edition</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/fafeGame.json", { onProgress: UnityProgress });
+  </script>
+</head>
+
+<body style="background-color:#817f20;">
+  <div
+    style="text-align: center;font-size: 50px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:white;margin-top:3rem;">
+    Fafense Adventure</div>
+  <div class="game" style="background-color: white;height: 720px;width: 2000px;margin-top:2rem">
+    <div class="webgl-content">
+      <div id="unityContainer"
+        style="width: 960px; height: 600px;position: relative;margin-top: 10rem;">
+      </div>
+      <div class="footer">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="advice"style="margin-top: 1rem;margin-left: 5rem;">Use FullScreen for the better experience</div>
+      </div>
+    </div>
+  </div>
+  <div class="guedesLogo" style="margin-top:1rem;margin-left:44%"><img src="https://i.ibb.co/2YnY1jq/webgl-logo.png"></div>
+
+</body>
+
+</html>

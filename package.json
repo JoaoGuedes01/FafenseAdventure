@@ -1,0 +1,21 @@
+{
+  "name": "fafeGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "react-unity-webgl": "^8.0.2",
+    "ssl-express-www": "^3.0.7"
+  }
+}
